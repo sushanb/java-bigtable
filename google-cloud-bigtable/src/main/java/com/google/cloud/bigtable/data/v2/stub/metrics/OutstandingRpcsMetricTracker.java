@@ -49,7 +49,7 @@ public class OutstandingRpcsMetricTracker implements Runnable {
             .build();
 
     this.baseAttributes =
-        Attributes.builder().put("transport_type", "grpc").put("lb_policy", lbPolicy).build();
+        Attributes.builder().put("transport_type", "<PLACEHOLDER>").put("lb_policy", lbPolicy).build();
   }
 
   /**
